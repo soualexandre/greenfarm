@@ -1,13 +1,16 @@
 <?php
 session_start();
 if(!isset($_SESSION['logado'])){
-header("location:../inicial/formulario/login.php");
+    header("location:../inicial/formulario/login.php");
 }
 $logado = $_SESSION['login'];
 
+$url = 'http://gabriel.pereira.si3pifto.com.br/previsao_da_semana.php';
+
+$previsoes = json_decode(file_get_contents($url));
+
 require_once "../inicial/modelo/cabecalho_app.php";
 ?>
-
 
 <html>
   <head>
@@ -28,11 +31,12 @@ require_once "../inicial/modelo/cabecalho_app.php";
 
 
 <h4 style="text-align:center;" id="saudacoes" >Bem vindo <?php echo $_SESSION['login']; ?></h4>
-<div class="card container" >
+<div class="card container">
   <div class="card-body">
-    <h5 class="card-title">Previsão do tempo</h5>
-    <h6 class="card-subtitle mb-2 text-muted">hoje</h6>
-    <a href="../analise-form/analise-form.php" class="card-link">Página de análise</a>
+      <h5 class="card-title">Previsão do tempo - <?php echo $previsoes[0]->data?></h5>
+      <h6 class="card-subtitle mb-2 text-muted">Temperatura Mínima: <?php echo $previsoes[0]->mintemperatura?>&deg;</h6>
+      <h6 class="card-subtitle mb-2 text-muted">Temperatura Máxima: <?php echo $previsoes[0]->maxtemperatura?>&deg;</h6>
+      <a href="../analise-form/analise-form.php" class="card-link">Página de análise</a>
   </div>
 
 <hr>

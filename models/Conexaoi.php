@@ -7,10 +7,10 @@ class Conexaoi {
     private $nomebanco;
 
     function __construct() {
-        $this->servidor = "localhost";
-        $this->usuario = "root";
-        $this->senha = "";
-        $this->nomebanco = "app-greenfarm";
+        $this->servidor = "162.241.2.188";
+        $this->usuario = "si3pif51_pereira";
+        $this->senha = "gabriel1234";
+        $this->nomebanco = "si3pif51_pereira";
     }
 
     function conectar() {
