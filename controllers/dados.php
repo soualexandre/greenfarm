@@ -1,6 +1,6 @@
 <?php
 require_once "../models/Operacoes_login.php";
-require_once "../models/Operacoes_risco.php";
+require_once "../models/operacoes_risco.php";
 
 $nome = $_POST["nome"];
 $email = $_POST["email"];

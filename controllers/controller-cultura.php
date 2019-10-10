@@ -1,6 +1,6 @@
 <?php
-require_once "../models/Operacoes_cultura.php";
-require_once "../models/Operacoes_risco.php";
+require_once "../models/operacoes_cultura.php";
+require_once "../models/operacoes_risco.php";
 
 $dataInicio = $_POST["dataInicio"];
 $dataFim = $_POST["dataFim"];
