@@ -35,7 +35,7 @@ require_once "../inicial/modelo/cabecalho_app.php";
   <div class="card-body">
       <h5 class="card-title">Previsão do tempo - Hoje <?php echo $previsoes[0]->temperatura?>&deg;</h5>
       <h6 class="card-subtitle mb-2 text-muted">Clima: <?php echo $previsoes[0]->clima?></h6>
-      <a href="../analise-form/analise-form.php" class="card-link">Página de análise</a>
+      <a href="../previsao-semana/previsao-semana.php" class="card-link">Página de análise</a>
   </div>
 
 <hr>
