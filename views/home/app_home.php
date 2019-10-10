@@ -44,64 +44,21 @@ require_once "../inicial/modelo/cabecalho_app.php";
 </h5>
 <ul>
   <li>
-    Alerta 1
+    Chuva torrencial
   </li>
   <li>
-    Alerta 2
+    Enchente
   </li>
   <li>
-    Alerta 3
+  Queimadas
   </li>
   <li>
-    Alerta 4
+  pragas
   </li>
   <li>
-    Alerta 5
+  contaminações em grande escala de água e solo
   </li>
-  <li>
-    Alerta 4
-  </li>
-  <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li> <li>
-    Alerta 4
-  </li>
+  
 </ul>
 <hr>
 
