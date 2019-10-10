@@ -1,0 +1,11 @@
+.label-resultado{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: inherit;
+    text-align:justify;
+}
+#success{
+    color: rgb(4, 5, 5);
+}
+#porcentagem{
+    font-weight: 2px;
+}

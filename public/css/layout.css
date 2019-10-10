@@ -1,0 +1,106 @@
+body#LoginForm{background-color: #037773;
+ background-repeat:no-repeat; background-position:center; background-size:cover; padding:10px;
+ color: #ffffff;}
+
+.form-heading { color:#fff; font-size:23px;}
+.panel h2{ color:#444444; font-size:18px; margin:0 0 8px 0;}
+.panel p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+.form_logar{
+  color: #ffffff;
+}
+.title-cab{
+  color: #ffffff;
+}
+.main-div {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  padding: 50px 70px 70px 71px;
+}
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  padding-top: 10px;
+}
+.forgot a:hover{
+   color: #F03A07;
+
+}
+ h1 {
+  padding-top: 10%;
+  padding-bottom: 40px;
+
+}
+.login-form  .btn.btn-primary {
+  background: #f0ad4e none repeat scroll 0 0;
+  border-color: #f0ad4e;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+  text-align: right;
+}
+
+.btn{
+  float: right;
+  }
+  .input-login1{
+    padding-bottom: 10px;
+    color: yellow;
+  }
+  .input-login2{
+    color: yellow;
+  }
+  .form-control{
+    padding: 15px;
+  }
+
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+}
+.login-form .btn.btn-primary.reset {
+  background: #ff9900 none repeat scroll 0 0;
+}
+.back { text-align: left; margin-top:10px;}
+.back a {color: #444444; font-size: 13px;text-decoration: none;}
+
+.topo{
+    text-align: center;
+    margin: auto;
+} 
+.formulario{
+border-style: solid;
+    border-width: 2px;
+    border-color: #8B008B;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    background-color:#FFFFFF;
+}
+.title-cab{
+  float: center;
+  text-align: center;
+  
+}
+.div-resultado{
+  text-align: center;
+  margin-right: -30%;
+}
