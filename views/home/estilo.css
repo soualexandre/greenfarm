@@ -14,7 +14,7 @@ body{
     width: 48px;
     height: 48px;
     border-radius: 30px;
-    background-color: #059700;
+    background-color: #28A745;
     border: none;
     box-shadow: 0 1px 5px rgba(0,0,0,.4);
     font-size: 24px;
@@ -34,7 +34,7 @@ body{
     width: 60px;
     height: 60px;
     border-radius: 30px;
-    background-color: #059700;
+    background-color: #28A745;
     right: 0;
     bottom: 0;
     z-index: 20;
@@ -43,7 +43,13 @@ body{
   .fab button.main:before{
     content: '+';
   }
-  #saudacoes{
-    margin-top: 50px;
-  }
-  
+#saudacoes{
+  margin-top: 10px;
+}
+.dicas{
+  padding-bottom: 10px;
+}
+.float-right{
+  float: right;
+  text-align: right;
+}
