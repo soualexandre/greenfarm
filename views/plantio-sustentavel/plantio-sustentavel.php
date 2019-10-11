@@ -5,9 +5,10 @@ require_once("../inicial/modelo/cabecalho_app.php");
 ?>
 <html>
 <head>
+<link type="text/css" href="sustentavel.css" >
 </head>
 <body>
-    <h4 class="text-center" >Temos algumas dicas de sustentabilidade para que o seu plantio continue a crescer</h4>
+    <h4 class="text-center"id="titulo-sust" >Temos algumas dicas de sustentabilidade para que o seu plantio continue a crescer</h4>
     <hr>
     <ul>
        
@@ -29,8 +30,6 @@ require_once("../inicial/modelo/cabecalho_app.php");
         </li>
     </ul>
 </ul>
-
-
 </body>
 
 </html>

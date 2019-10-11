@@ -8,6 +8,16 @@
         <link type="text/js" href="../../vendor/bootstrap/js/bootstrap.bundle.min.js"/>
         <link rel="stylesheet" href="../../vendor/bootstrap/css/bootstrap.min.css"  crossorigin="anonymous">
         <link href="main.css?version=12" />
+        <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+        
+    <script src="../../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <script src="../../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
         <link type="text/css" href="inicio.css" />
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 </head>
