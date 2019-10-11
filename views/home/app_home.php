@@ -43,9 +43,10 @@ require_once "../inicial/modelo/cabecalho_app.php";
     <hr>
 
     <div class="alertas" href="../analise-form/analise-form.php">
-        <h5 style="text-align:center;">
+        <h5 style="text-align:center;" class="dicas">
             Temos alguns alertas para a sua região
         </h5>
+        <ul>
         <ul>
             <li>
                 Chuva torrencial
@@ -59,18 +60,18 @@ require_once "../inicial/modelo/cabecalho_app.php";
             <li>
                 pragas
             </li>
-            <li>
+            <!-- <li>
                 contaminações em grande escala de água e solo
-            </li>
+            </li> -->
 
-        </ul>
+        </ul></ul>
         <div class="float-right container">
             <button type="submit" class="btn btn-success">Ver mais</button>
         </div>
     </div>
     <hr>
-    <h5 class="text-center dicas">Dicas de plantio sustentavel</h5>
-
+    <h5 class="text-center dicas">Veja algumas dicas de plantio sustentavel</h5>
+    <ul>
     <ul>
         <li>
             Utilizar solo sem contaminantes;
@@ -87,9 +88,10 @@ require_once "../inicial/modelo/cabecalho_app.php";
         <li>
             Irrigar corretamente;
         </li>
-    </ul>
+    </ul></ul>
     <div class="float-right container">
-        <button type="submit" class="btn btn-success">Ver mais</button>
+        <a href="../plantio-sustentavel/plantio-sustentavel.php">
+        <button type="submit" class="btn btn-success">Ver mais</button></a>
     </div>
     <hr>
     <div class="fab">
