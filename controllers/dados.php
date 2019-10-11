@@ -26,7 +26,11 @@ $acao->setSenhaconfirma($senhaconfirma);
 $acao->setUf($uf);
 $acao->setCidade($cidade);
 
-$acao->cadastrar();
-$risco->risco();
+if($acao->cadastrar() == true){
+    header("Location: ../views/home/app_home.php");
+}else{
+    header("Location: ../views/home/app_home.php");
+}
+//$risco->risco();
 
 

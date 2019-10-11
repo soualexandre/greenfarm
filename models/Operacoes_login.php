@@ -2,6 +2,7 @@
 session_start();
 require_once "Conexaoi.php";
 require_once "../views/inicial/classe/Mensagens.php";
+
 class Operacoes
 {
 
@@ -44,10 +45,12 @@ class Operacoes
     {
         return $this->senhaconfirma;
     }
+
     function getUf()
     {
         return $this->uf;
     }
+
     function getCidade()
     {
         return $this->cidade;
@@ -83,10 +86,12 @@ class Operacoes
     {
         $this->senhaconfirma = $senhaconfirma;
     }
+
     function setUf($uf)
     {
         $this->uf = $uf;
     }
+
     function setCidade($cidade)
     {
         $this->cidade = $cidade;
@@ -108,11 +113,19 @@ class Operacoes
 
 
                 if ($query) {
-                    $mensagem = new Mensagens();
-                    $mensagem->sucesso();
+                    $_SESSION['logado'] = true;
+                    $_SESSION['login'] = $this->login;
+                    $_SESSION['senha'] = $this->senha;
+                    return true;
+                    //$mensagem = new Mensagens();
+                    //$mensagem->sucesso();
                 } else {
-                    $mensagem = new Mensagens();
-                    $mensagem->fracasso();
+                    unset($_SESSION['login']);
+                    unset($_SESSION['senha']);
+                    $_SESSION['falha_login'] = "<p class='text-danger'>Usuario ou senha incorretos!</p>";
+                    return false;
+                    //$mensagem = new Mensagens();
+                    //$mensagem->fracasso();
                 }
             } else {
 
@@ -130,7 +143,7 @@ class Operacoes
         if ($_POST) {
             $login = $_POST['login'];
             $senha = $_POST['senha'];
-            
+
             $sql = "select * from cadastro where login = '$login' and senha= '$senha'";
 
             $query = mysqli_query($conecta, $sql);
@@ -142,7 +155,7 @@ class Operacoes
                 $_SESSION['login'] = $login;
                 $_SESSION['senha'] = $senha;
                 header("Location:../views/home/app_home.php");
-               
+
             } else {
                 unset($_SESSION['login']);
                 unset($_SESSION['senha']);
