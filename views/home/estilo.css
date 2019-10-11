@@ -48,6 +48,7 @@ body{
 }
 .dicas{
   padding-bottom: 10px;
+  font-weight: bold;
 }
 .float-right{
   float: right;
