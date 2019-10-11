@@ -34,17 +34,10 @@ require_once "../inicial/modelo/cabecalho_app.php";
 <h4 style="text-align:center;" id="saudacoes">Bem vindo <?php echo $_SESSION['login']; ?></h4>
 <div class="card container">
     <div class="card-body">
-<<<<<<< HEAD
-      <h5 class="card-title">Temperatura - Agora <?php echo $previsoes[0]->temperatura ?>&deg;C</h5>
-      <h6 class="card-subtitle mb-2 text-muted">Clima: <?php echo $previsoes[0]->clima ?></h6>
-      
-      <a href="../previsao-semana/previsao-semana.php" class="card-link">Ver privisão para a semana</a>
-=======
         <h5 class="card-title">Previsão do tempo - Hoje <?php echo $previsoes[0]->temperatura ?>&deg;C</h5>
         <h6 class="card-subtitle mb-2 text-muted">Clima: <?php echo $previsoes[0]->clima ?></h6>
 
         <a href="../previsao-semana/previsao-semana.php" class="card-link">Ver privisão para a semana</a>
->>>>>>> 2368962bbb843a7f00fd8b9155d49447b497be57
     </div>
 
     <hr>
