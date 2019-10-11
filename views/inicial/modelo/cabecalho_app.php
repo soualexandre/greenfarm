@@ -24,8 +24,8 @@
 </div>
   </div>
   <nav class="navbar navbar-dark bg-success">
-  <div class="title-menu"style="text-align:center;">
-   <a href="../home/app_home.php"  style="color:aliceblue;text-decoration:none;" id="title-menu" ><h4>GreenFarm.br</h4></a>
+  <div class="title-menu">
+   <a href="../home/app_home.php"  style="color:aliceblue;text-decoration:none;" id="title-menu"><h4>GreenFarm.br</h4></a>
    </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
