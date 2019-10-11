@@ -66,7 +66,7 @@ require_once "../inicial/modelo/cabecalho_app.php";
 
         </ul></ul>
         <div class="float-right container">
-            <button type="submit" class="btn btn-success">Ver mais</button>
+            <a class="btn btn-success" href="../detalhe_alerta">Ver mais</a>
         </div>
     </div>
     <hr>
