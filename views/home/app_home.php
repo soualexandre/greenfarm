@@ -1,13 +1,16 @@
 <?php
 session_start();
+
+require_once "../../models/Previsao.php";
+
 if (!isset($_SESSION['logado'])) {
     header("location:../inicial/formulario/login.php");
 }
 $logado = $_SESSION['login'];
 
-$url = 'http://gabriel.pereira.si3pifto.com.br/previsao_do_dia.php';
+$previsao = new Previsao();
 
-$previsoes = json_decode(file_get_contents($url));
+$previsoes = $previsao->previsaoDoDia();
 
 require_once "../inicial/modelo/cabecalho_app.php";
 ?>
