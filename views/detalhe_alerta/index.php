@@ -17,6 +17,28 @@ require_once "../inicial/modelo/cabecalho_app.php";
     <title>Detalhes dos alertas</title>
 </head>
 <body>
-
+<div class="container">
+    <br>
+    <h4 class="text-center">Alertas para a sua região</h4>
+    <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Sem alertas para esse período
+            <span class="badge badge-success badge-pill">0</span>
+        </li>
+    </ul>
+    <hr>
+    <h4 class="text-center">Alertas de alguns anos atrás para a sua região</h4>
+    <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Enchentes<p class="text-left">Ano: 2008</p>
+            <span class="badge badge-primary badge-pill">2</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Enchorradas<p class="text-left">Ano: 2009</p>
+            <span class="badge badge-primary badge-pill">1</span>
+        </li>
+    </ul>
+    <hr>
+</div>
 </body>
 </html>
