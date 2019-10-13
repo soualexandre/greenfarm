@@ -33,7 +33,7 @@ if($_SESSION['cultura_nome']  == "default"){
         echo  $_SESSION['cultura_nome']; ?></h4>
     <h6>Status do solo: <span id="success">Apto </span></h6>
 
-    <h6>Tipo de solo: <span id="success">Rochoso </span></h6>
+    <h6>Tipo de solo: <span id="success">Humoso </span></h6>
 
     <h6>Risco de perda: <span id="success"> 
                                             Baixo <= 20%</span><span id="porcentagem">
