@@ -47,8 +47,9 @@ require_once("../inicial/modelo/cabecalho_app.php");
     </select>
 
 <br><br>
+<a href="acomp-plant.php">
     <button type="submit" class="btn btn-success"> Submeter</button>
-
+    </a>
 </div>
   
 
