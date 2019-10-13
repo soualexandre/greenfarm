@@ -61,6 +61,11 @@ if($_SESSION['cultura_nome']  == "default"){
     <hr>
     <a href="../acompanhamento/acompanhamento_plantio.php" style="text-decoration:none;">
         <button type="submit" class="btn btn-success col-12">Iniciar Acompanhamento de Plantio</button>
+        
+    </a>
+    <a href="../home/app_home.php" style="text-decoration:none;">
+        <button type="submit" class="btn btn-primary col-12">Volta para a tela inicial</button>
+        
     </a>
     </form>
 </div>
