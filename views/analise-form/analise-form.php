@@ -4,10 +4,6 @@ session_start();
 require_once "../inicial/modelo/cabecalho_app.php";
 
 ?>
-<link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="../../vendor/bootstrap/Js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
 <link type="text/css" href="analise.css">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 <div class="container">
