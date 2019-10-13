@@ -21,9 +21,7 @@ require_once "../inicial/modelo/cabecalho_app.php";
         <option value="colve">colve</option>
     </select>
 </div>
-<?php 
-echo $_SESSION['selecionar'];
-?>
+
 <hr>
 <div class="form-check">
   <input class="form-check-input" type="radio" name="solo[]" id="exampleRadios1" value="4" checked>
@@ -51,7 +49,12 @@ echo $_SESSION['selecionar'];
 </div>
 
 <hr>
-
+<div class="modalidade-corpo container">
+  <div>
+    <label for="diaa">Informe a data do incio do plantio</label>
+    <input type="Month" id="diaa" name="dataInicio">
+  </div>
+  </div>
   <hr>
   <button type="submit" class="btn btn-success">Submeter</button>
 </form>

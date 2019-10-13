@@ -26,33 +26,18 @@ if($_SESSION['cultura_nome']  == "default"){
 
 <link rel="stylesheet" type="text/css" href="resultado.css">
 <meta charset="utf-8" />
-<div class="container">
-    <hr>
-    <label for="">
-        <?php
-        echo  $_SESSION['cidade']; ?>
-        :
-        <?php
-        echo  $_SESSION['uf']; ?></label>
-
-    <hr>
-</div>
 
 
-<div class="container div-resultado">
-
+<div class="container div-resultado"><hr>
     <h4><?php
         echo  $_SESSION['cultura_nome']; ?></h4>
     <h6>Status do solo: <span id="success">Apto </span></h6>
 
-    <h6>Tipo de solo: <span id="success"><?php
-                                            echo  $_SESSION['tipo']; ?> </span></h6>
+    <h6>Tipo de solo: <span id="success">Rochoso </span></h6>
 
-    <h6>Risco de perda: <span id="success"> <?php
-                                            echo  $_SESSION['risco_desc']; ?> </span><span id="porcentagem">
-            <?php
-            echo  $_SESSION['risco_percent'] . '%'; ?>
-
+    <h6>Risco de perda: <span id="success"> 
+                                            Baixo <= 20%</span><span id="porcentagem">
+          
         </span> </h6>
     <hr>
 
@@ -65,8 +50,9 @@ if($_SESSION['cultura_nome']  == "default"){
     <label for="" class="label-resultado"> <?php
                                             echo $_SESSION['cultura_regiao']; ?></label>
 </div>
-<hr>
 <div class="container">
+<hr>
+
     <h5>Como plantar: <?php
                         echo  $_SESSION['cultura_nome']; ?> </h5>
 

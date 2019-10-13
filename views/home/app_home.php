@@ -19,6 +19,8 @@ require_once "../inicial/modelo/cabecalho_app.php";
 
 <head>
     <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script type="text/js" src="pace.mim.js"></script>
+
 </head>
 
 <body>
@@ -93,7 +95,6 @@ require_once "../inicial/modelo/cabecalho_app.php";
         </a>
 
     </div>
-    <script type="text/js" src="srcipt-botao.js"></script>
 
 </div>
 </body>
